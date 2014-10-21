@@ -29,17 +29,26 @@ Texto do slide 2
 
 Texto do slide 3
 
-```{r font = "footnotesize"}
+
+```r
 rnorm(10)
+```
+
+```
+##  [1]  1.937393438  0.149259103  2.075743068  0.543308827 -0.315728962
+##  [6] -0.007401945  0.293363473  0.817748983 -0.671538346  0.971765973
 ```
 
 ---
 
 ## Slide 4
 
-```{r figura, fig.width=8, fig.height=6}
+
+```r
 plot(rnorm(100))
 ```
+
+![plot of chunk figura](assets/fig/figura-1.png) 
 
 ---
 
